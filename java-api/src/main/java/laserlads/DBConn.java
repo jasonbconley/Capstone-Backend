@@ -12,8 +12,8 @@ public class DBConn {
 
     static {
         config.setJdbcUrl( "jdbc:mysql://localhost:3306/capstonedb" );
-        config.setUsername( "capstone" );
-        config.setPassword( "track" );
+        config.setUsername( "user" );
+        config.setPassword( "pass" );
         config.addDataSourceProperty( "cachePrepStmts" , "true" );
         config.addDataSourceProperty( "prepStmtCacheSize" , "250" );
         config.addDataSourceProperty( "prepStmtCacheSqlLimit" , "2048" );
