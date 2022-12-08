@@ -1,0 +1,11 @@
+spring:
+  spring.config.activate.on-profile: laser
+server:
+  port: 8092
+  ssl:
+    enabled: true
+    key-store: src/main/resources/laser.keystore
+    key-store-password: cApst0ne
+    key-store-type: pkcs12
+    key-alias: laser
+    key-password: cApst0ne
