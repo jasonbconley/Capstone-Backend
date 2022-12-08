@@ -11,16 +11,16 @@ dbName = "capstonedb"
 # CREATE TABLE sensors(device_id char(23) NOT NULL, transmission_count INT NOT NULL, battery_level FLOAT NOT NULL, type INT NOT NULL, node_id INT NOT NULL, rssi INT NOT NULL, last_heard TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP);
 
 # User variables for MQTT Broker connection
-mqttBroker = "laserlads.xyz"
+mqttBroker = "IP"
 mqttBrokerPort = 1883
-mqttUser = 'capstone'
-mqttPassword = 'track'
-mqttTopic = 'test'
+mqttUser = 'user'
+mqttPassword = 'pass'
+mqttTopic = 'topic'
 #mqttCert = "/home/capstone/certs/key.crt"
 
 mariaHost = "localhost"
-mariaUser = "capstone"
-mariaPassword = "track"
+mariaUser = "user"
+mariaPassword = "pass"
 
 lot = "MSBR5"
 
